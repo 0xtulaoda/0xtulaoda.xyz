@@ -8,9 +8,9 @@
     "url": "https://github.com/craigary/nobelium.git"
   },
   "author": {
-    "name": "Craig Hart",
+    "name": "0xtulaoda",
     "email": "0xtulaoda01@gmail.com",
-    "url": "http://craigary.net"
+    "url": "https://www.0xtulaoda.xyz"
   },
   "scripts": {
     "dev": "next dev",
