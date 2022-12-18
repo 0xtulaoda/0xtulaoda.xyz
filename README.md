@@ -55,7 +55,7 @@ Demo: [https://www.0xtulaoda.xyz/](https://www.0xtulaoda.xyz/)
 - Duplicate [this Notion template](https://craigary.notion.site/adc3552cfc73442ab5048d4b1eb0079a), and share it to the public
 - [Fork](https://github.com/craigary/nobelium/fork) this project
 - Customize `blog.config.js`
-- _(Optional)_ Replace `favicon.png`, and `favicon.ico` in `/public` folder with your own
+- _(Optional)_ Replace `favicon.svg`, and `favicon.ico` in `/public` folder with your own
 - Deploy on [Vercel](https://vercel.com), set following environment variables：
   - `NOTION_PAGE_ID` (Required): The ID of the Notion page you previously shared to the web, usually has 32 digits after your workspace address
   - `NOTION_ACCESS_TOKEN` (Optional, not recommended): If you decide not to share your database, you can use token to let Nobelium grab data from Notion database. You can find it in your browser cookies called `token_v2`
@@ -71,6 +71,7 @@ Demo: [https://www.0xtulaoda.xyz/](https://www.0xtulaoda.xyz/)
 Unofficial, thanks to [@Vaayne](https://github.com/craigary/nobelium/pull/157)'s work!
 
 ### Build Docker image yourself
+
 ```
 # set env
 export NOTION_PAGE_ID=xxx # your NOTION_PAGE_ID
@@ -84,6 +85,7 @@ docker run -d --name nobelium -p 3000:3000 -e NOTION_PAGE_ID=${NOTION_PAGE_ID} n
 ```
 
 ### Use default docker image
+
 ```
 # pull image
 docker pull ghcr.io/craigary/nobelium:main
